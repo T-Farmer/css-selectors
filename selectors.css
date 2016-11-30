@@ -4,8 +4,17 @@
 	border-color: red;
 }
 
-.monthsUL	{
+#navContainer ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 1em;
+	margin: 20;
+	padding: 0;
+}
+
+#navContainer ul li {
+	display: inline;
+}
+
+#navContainer ul li a {
+	text-decoration: none;
+	padding: .5em 1em;
 }
