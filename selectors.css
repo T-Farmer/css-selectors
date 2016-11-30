@@ -6,7 +6,7 @@
 
 #navContainer ul {
 	list-style-type: none;
-	margin: 20;
+	margin: 0;
 	padding: 0;
 }
 
@@ -17,4 +17,13 @@
 #navContainer ul li a {
 	text-decoration: none;
 	padding: .5em 1em;
+	float: left;
+}
+
+.disabled {
+	color: grey;
+}
+
+a .disabled {
+	color: purple;
 }
