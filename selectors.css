@@ -3,3 +3,9 @@
 	border-width: 1px;
 	border-color: red;
 }
+
+.monthsUL	{
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+}
